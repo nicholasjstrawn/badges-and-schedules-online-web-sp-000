@@ -4,5 +4,4 @@ def badge_maker(name)
   name.each do
     badges << "Hello, my name is #{name}."
   end
-  badges[0]
 end

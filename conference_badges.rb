@@ -4,5 +4,5 @@ def badge_maker(name)
   name.each do |badge|
     badges << "Hello, my name is #{badge}."
   end
-  badges.inspect
+  return badges.inspect
 end
